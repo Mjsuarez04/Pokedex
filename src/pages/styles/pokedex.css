@@ -1,0 +1,75 @@
+.pokedex__title {
+    text-align: center;
+    font-size: 2rem;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-weight: 300;
+    margin-bottom: 2em;
+}
+
+.pokedex__title-name {
+    font-weight: 600;
+    color: #FE1936;
+}
+
+.pokedex__container-pokemon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.poke__form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 2.5em;
+    padding: 0 1em;
+}
+
+.poke__input {
+    width: 265px;
+    max-width: 350px;
+    margin-bottom: 1.5em;
+    font-size: 1rem;
+    font-weight: 300;
+    height: 36px;
+    border-radius: 0.5em 0 0 0.5em;
+    border: none;
+    box-shadow: 0 0.1em 0.3em #0005;
+}
+
+.poke__btn {
+    font-size: 1rem;
+    font-weight: semibold;
+    padding: 0.5em 2em;
+    box-shadow: .5rem .5rem 1rem #454040;
+    border-radius: 0 0.5em 0.5em 0;
+    border: 1px solid #D93F3F;
+    background-color: #D93F3F;
+    color: aliceblue;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.poke__btn:hover {
+    filter: brightness(1.1);
+    box-shadow: .5rem .5rem 1rem #5d0303;
+
+}
+
+.poke__btn:active {
+    box-shadow: inset .5rem .5rem 1rem #4e2121;
+    transition: all 1s ease;
+}
+
+.select__type {
+    width: 450px;
+    max-width: 500px;
+}

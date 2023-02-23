@@ -1,0 +1,84 @@
+.poke__card {
+    width: 100%;
+    max-width: 380px;
+    border-radius: 1em;
+    border: 12px solid;
+    overflow: hidden;
+    transition: transform 150ms ease;
+    cursor: pointer;
+}
+
+.poke__card:hover {
+    transform: scale(1.05);
+}
+
+.poke__header {
+    height: 200px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.poke__img {
+    width: 60%;
+    top: 20px;
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+.poke__name {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 0.1em;
+}
+
+.poke__type-list {
+    display: flex;
+    justify-content: center;
+    gap: 1.2em;
+}
+
+.poke__type-item {
+    text-transform: capitalize;
+    position: relative;
+    margin-bottom: 0.3em;
+}
+
+.poke__type-item:nth-child(2)::before {
+    content: '/';
+    position: absolute;
+    left: -12px;
+}
+
+.poke__hr {
+    border: none;
+    border-top: 1px solid #7772;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.2em;
+}
+
+.poke__stat-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 0.5em 1.5em;
+    gap: 0.8em 0.1em;
+}
+
+.poke__stat-item {
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+    align-items: center;
+}
+
+.poke__stat-name {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    text-align: center;
+}
