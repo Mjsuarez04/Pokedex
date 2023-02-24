@@ -87,18 +87,18 @@ const PokeInfo = () => {
         <div className="pokeInfo__WH">
           <div className="pokeInfo__characteristic">
             <div className="pokeBox__chart">
-              <h3 className='poke__weight' style={{background: colors[colorTypes]?.first }}>Weight</h3>
+              <h4 className='poke__weight' style={{background: colors[colorTypes]?.first }}>Weight</h4>
               <p className='poke-weight'>{poke?.weight}</p>
             </div>
             <div className="pokeBox__chart">
-              <h3 className='poke__height' style={{background: colors[colorTypes]?.first }}>Height</h3>
+              <h4 className='poke__height' style={{background: colors[colorTypes]?.first }}>Height</h4>
               <p className='poke-height'>{poke?.height}</p>
             </div>
           </div>
         </div>
         <div className="poke__type-hability">
           <div className="box__TH">
-            <h3 className='type' style={{background: colors[colorTypes]?.first }}>Type</h3>
+            <span className='type' style={{background: colors[colorTypes]?.first }}>Type</span>
             <div className="poke__types-habilites">
               {poke?.types.map((type) => (
                 <span className='types' key={type.type.url}>{type.type.name}</span>
@@ -106,7 +106,7 @@ const PokeInfo = () => {
             </div>
           </div>
           <div className="box__TH">
-            <h3 className='hability' style={{background: colors[colorTypes]?.first }}>Habilities</h3>
+            <span className='hability' style={{background: colors[colorTypes]?.first }}>Habilities</span>
             <div className="poke__types-habilites">
               {poke?.abilities.map((ability) => (
                 <span className='habilities' key={ability.ability.url}>{ability.ability.name}</span>

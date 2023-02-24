@@ -1,10 +1,4 @@
 .poke__container-home {
-    background-image: url(../../../public/image/pikachu2.jpg);
-    width: 100%;
-    height: 100%;
-}
-
-.poke__container-home {
     position: relative;
     padding-bottom: 4em;
     min-height: 100vh;
@@ -18,7 +12,7 @@
 }
 
 .poke__title-home {
-    color: #ffffffe0;
+    color: #ea2525;
     text-align: center;
     margin-bottom: 0.1em;
     font-size: 1.8rem;

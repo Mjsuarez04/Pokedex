@@ -34,13 +34,13 @@
 }
 
 .poke__input {
-    width: 265px;
-    max-width: 350px;
+    width: 160px;
     margin-bottom: 1.5em;
     font-size: 1rem;
     font-weight: 300;
     height: 36px;
     border-radius: 0.5em 0 0 0.5em;
+    margin-left: 10px;
     border: none;
     box-shadow: 0 0.1em 0.3em #0005;
 }
@@ -48,7 +48,7 @@
 .poke__btn {
     font-size: 1rem;
     font-weight: semibold;
-    padding: 0.5em 2em;
+    padding: 0.5em 0.5em;
     box-shadow: .5rem .5rem 1rem #454040;
     border-radius: 0 0.5em 0.5em 0;
     border: 1px solid #D93F3F;

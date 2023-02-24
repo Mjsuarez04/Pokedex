@@ -19,13 +19,13 @@ const Home = () => {
 
     return (
         <div className='poke__container-home'>
-            <img className='poke__img-home' src="/image/image 11.png" alt="" />
+            <img className='poke__img-home' src="../../image/image 11.png" alt="" />
             <h2 className='poke__title-home'>Hi Trainer</h2>
             <p className='poke__info-home'>Give your name to get in your pokedex</p>
             <form className='poke__home-form' onSubmit={handleSubmit}>
                 <input className='poke__input-home' id='name' type="text" 
                     placeholder='Your name'/>
-                <button className='poke__btn-home'>GO !</button>
+                <button className='poke__btn-home'>GO</button>
             </form>
             <footer className='poke__footer'>
                 <div className='footer__black'></div>
