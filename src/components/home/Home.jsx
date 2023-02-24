@@ -27,6 +27,9 @@ const Home = () => {
                     placeholder='Your name'/>
                 <button className='poke__btn-home'>GO</button>
             </form>
+            <div className='img__container'>
+                <img className='pika__img' src="../../image/Pikachu.png" alt="" />
+            </div>
             <footer className='poke__footer'>
                 <div className='footer__black'></div>
             </footer>

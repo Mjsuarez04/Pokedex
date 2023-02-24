@@ -14,7 +14,7 @@
 .poke__title-home {
     color: #ea2525;
     text-align: center;
-    margin-bottom: 0.1em;
+    margin-bottom: 0.2em;
     font-size: 1.8rem;
 }
 
@@ -70,16 +70,23 @@
     height: 500px;
 }
 
-.img-pikachu {
-    width: 450px;
-    height: 470px;
+.img__container {
+    display: flex;
+}
+
+.pika__img {
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin-top: -95px;
 }
 
 .poke__footer {
     width: 100%;
     padding: 2em;
     height: 40px;
-    background-color: #dd1a1a59;
+    background-color: #dd1a1aea;
     position: absolute;
     bottom: 0;
 }
