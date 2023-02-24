@@ -14,8 +14,6 @@ const PokeInfo = () => {
   const [hasError, setHasError] = useState(false);
   const [isLoading, setIsLoading] = useState(false)
 
-  console.log(poke);
-
   useEffect(() => {
     const url = `https://pokeapi.co/api/v2/pokemon/${id}`;
     setIsLoading(true)
@@ -120,7 +118,7 @@ const PokeInfo = () => {
           {poke?.stats.map((stat) => (
             <div className="pokeStat__bar">
               <div className="text__bar">
-                <span>{stat.stat.name}</span>
+                <span key={stat.stat.url}>{stat.stat.name}</span>
                 <p>{stat.base_stat}/150</p>
               </div>
               <div

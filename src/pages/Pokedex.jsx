@@ -33,7 +33,6 @@ const Pokedex = () => {
         })
     } else {
       axios
-      setIsLoading(true)
         .get(selectValue)
         .then((res) => {
           const results = res.data.pokemon.map((e) => e.pokemon);
@@ -42,11 +41,6 @@ const Pokedex = () => {
         .catch((err) => {
           console.log(err)
         })
-        .finally(() => {
-          setIsLoading(false)
-          setTimeout(() => setIsLoading(false), 12000)
-        })
-        
     }
   }, [selectValue]);
 
