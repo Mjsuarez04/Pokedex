@@ -1,14 +1,11 @@
 .loader {
-    display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0;
-    margin-top: 0;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../../../public/image/loader.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
-
-.loader__img {
-    margin-top: 0;
-    width: 60%;
-    height: 50%;
-}
-

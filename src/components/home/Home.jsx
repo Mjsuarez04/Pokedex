@@ -19,6 +19,7 @@ const Home = () => {
 
     return (
         <div className='poke__container-home'>
+            <div className='home'>
             <img className='poke__img-home' src="../../image/image 11.png" alt="" />
             <h2 className='poke__title-home'>Hi Trainer</h2>
             <p className='poke__info-home'>Give your name to get in your pokedex</p>
@@ -27,8 +28,11 @@ const Home = () => {
                     placeholder='Your name'/>
                 <button className='poke__btn-home'>GO</button>
             </form>
+            </div>
             <div className='img__container'>
                 <img className='pika__img' src="../../image/Pikachu.png" alt="" />
+                <img className='squirtle' src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c32a.png" alt="" />
+                <img className='charmander__img' src="https://www.pngmart.com/files/13/Charmander-PNG-HD.png" alt="" />
             </div>
             <footer className='poke__footer'>
                 <div className='footer__black'></div>
