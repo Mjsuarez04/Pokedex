@@ -2,6 +2,7 @@ import React from 'react'
 import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import { setNameTrainer } from '../../store/slices/trainerName.slice'
+import squirtle from '../../../public/image/squirtle'
 import '../home/home.css'
 
 const Home = () => {
@@ -31,7 +32,7 @@ const Home = () => {
             </div>
             <div className='img__container'>
                 <img className='pika__img' src="../../image/Pikachu.png" alt="" />
-                <img className='squirtle' src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c32a.png" alt="" />
+                <img className='squirtle' src={squirtle} alt="" />
                 <img className='charmander__img' src="https://www.pngmart.com/files/13/Charmander-PNG-HD.png" alt="" />
             </div>
             <footer className='poke__footer'>
