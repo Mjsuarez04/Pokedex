@@ -2,7 +2,7 @@ import React from 'react'
 import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import { setNameTrainer } from '../../store/slices/trainerName.slice'
-import squirtle from '../../../public/image/squirtle'
+import squirtle from '../../../public/image/squirtle.png'
 import '../home/home.css'
 
 const Home = () => {
